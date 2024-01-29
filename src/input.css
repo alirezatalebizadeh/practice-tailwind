@@ -3,8 +3,13 @@
 @tailwind utilities;
 
 @layer base {
-  a {
-    text-decoration: none;
+  @font-face {
+    font-family: DanaBold;
+    src: url("../public/fonts/IRANYekanX-Bold.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: DanaRegular;
+    src: url("../fonts/IRANYekanX-Regular.ttf") format("truetype");
   }
 }
 
